@@ -9,7 +9,6 @@ from werkzeug.utils import secure_filename
 
 
 class Classifier(nn.Module):
-    # TODO: implement me
     def __init__(self):
         super(Classifier, self).__init__()
         self.conv1 = nn.Conv2d(3, 64, 3, padding='same')
